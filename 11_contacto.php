@@ -1,0 +1,239 @@
+
+<!-- CONTACTO -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Active Office - Inicio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/isotipo.png" rel="icon">
+  <!--<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <!-- <h1 class="logo"><a href="index.html">Active Office</a></h1> -->
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="2_nosotros.html">Nosotros</a></li>
+          <li><a href="3_disciplinas.html">Disciplinas</a></li>
+          <li><a href="4_equipo.html">Equipo</a></li>
+          <li><a href="5_cuenta.php">Cuenta</a></li>
+          <li class="active"><a href="11_contacto.php">Contacto</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <div class="header-social-links">
+        <a href="https://www.facebook.com/Active-Office-103984211378901" class="facebook" target="_blank">
+          <i class="icofont-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/activeoffice.ao/?hl=es-la" class="instagram" target="_blank">
+          <i class="icofont-instagram"></i>
+        </a>
+      </div>
+
+    </div>
+
+  </header>
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Contacto Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p>¡Inscríbete a la mejor academia de disciplinas ahora!</p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.7387145244328!2d-100.29516061022478!3d25.67727974816186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662957d418711f7%3A0x4c1963a7879d2e76!2sAdolfo%20Prieto%202020%2C%20Obrera%2C%2064010%20Monterrey%2C%20N.L.!5e0!3m2!1ses!2smx!4v1614416604383!5m2!1ses!2smx" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Ubicación:</h4>
+                <p>Adolfo Prieto 2020, Obrera. Monterrey, NL.</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>active_office@academy.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Teléfono:</h4>
+                <p>+1 5589 55488 552</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form id="formRegistro" method="POST" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor, llena este campo con al menos 4 caracteres."/>
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Tu correo electrónico" data-rule="email" data-msg="Por favor, llena este campo con un email válido."/>
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="number" class="form-control" name="tel" id="tel" placeholder="Tu teléfono" data-rule="minlen:10" data-msg="Por favor, llena este campo con al menos 10 caracteres."/>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="password" class="form-control" name="pass1" id="pass1" placeholder="Tu contraseña" data-rule="minlen:8" data-msg="Por favor, llena este campo con al menos 8 caracteres."/>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="password" class="form-control" name="pass2" id="pass2" placeholder="Tu repite tu contraseña" data-rule="minlen:8" data-msg="Por favor, llena este campo con al menos 8 caracteres."/>
+                <div class="validate"></div>
+              </div>
+
+              <br><p>Pregunta de Seguridad</p>
+              <div class="form-group mt-3">
+                <select class="form-control" id="question">
+                        <option value="Primer profesor del colegio">Primer profesor del colegio</option>
+                        <option value="Nombre de la primera mascota">Nombre de la primera mascota</option>
+                        <option value="Tu mejor amigo de la infancia">Tu mejor amigo de la infancia</option>
+                </select>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="qu" id="qu" placeholder="Tu respuesta" data-rule="minlen:3" data-msg="Por favor, llena este campo con al menos 3 caracteres."/>
+                <div class="validate"></div>
+              </div><br>
+
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" placeholder="Escribe las clases a las que deseas inscribirte. ¿Algo más que debamos saber de ti?" data-rule="minlen:7" data-msg="Por favor, llena este campo con al menos 7 caracteres."></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Cargando</div>
+                <!--<div class="error-message"></div>-->
+                <div class="sent-message">Tu solicitud fue enviada. Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit" name ="btnInscripcion" id="btnInscripcion">Solicitar Inscripción</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contacto Section -->
+
+  </main><!-- End #main -->
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Active Office</span></strong>. Todos los derechos reservados. 
+      </div>
+      <div class="credits">
+        Diseñado por CAAS</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/12ModalContacto2.js"></script>
+
+
+  <!--MODAL 9 Cuenta5 -->
+  <div class="modal fade" id="modalContacto12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <center>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" id="close">X
+                </button>
+            </div>
+            <form id="formCitas">    
+                <div class="modal-body">
+                    <div class="form-group">
+                      <label for="nombre" class="col-form-label">
+                        
+                          <label class="label1"></label>
+                          <br>
+                          <label class="label2"></label>
+                          <br>
+                        
+                      </label>
+                      <div class="text-center">
+                        <button class="btn btn-success" type="button" name="btnAceptarModal" id="btnAceptarModal">Aceptar</button>
+                      </div>
+                    </div>          
+                </div>
+            </form>    
+        </div>
+          </center>
+    </div>
+</div> 
+
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+{
+    "id": "/active_office_pwa/?utm_source=web_app_manifest",
+    "name": "Active Office",
+    "short_name": "Active Office",
+    "description": "Bienvenidos a Active Office. Trabaja con nosotros por una vida saludable desde tu oficina. ",
+    "background_color": "#fff",
+    "theme_color": "#34b7a7",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "en-US",
+    "icons": [
+      {
+        "src": "./assets/img/1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/100.png",
+        "sizes": "100x100",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/img/16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ]
+  }
